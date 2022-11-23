@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'manshor';
+    src:  url('../fonts/manshor/manshor.eot?1k7prt');
+    src:  url('../fonts/manshor/manshor.eot?1k7prt#iefix') format('embedded-opentype'),
+      url('../fonts/manshor/manshor.ttf?1k7prt') format('truetype'),
+      url('../fonts/manshor/manshor.woff?1k7prt') format('woff'),
+      url('../fonts/manshor/manshor.svg?1k7prt#manshor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+  
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'manshor' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mns-library:before {
+  content: "\e908";
+}
+.mns-arrow-bottom:before {
+  content: "\e900";
+}
+.mns-arrow-left:before {
+  content: "\e901";
+}
+.mns-arrow-right:before {
+  content: "\e902";
+}
+.mns-arrow-top:before {
+  content: "\e903";
+}
+.mns-book:before {
+  content: "\e904";
+}
+.mns-download:before {
+  content: "\e905";
+}
+.mns-eitaa:before {
+  content: "\e906";
+}
+.mns-gallary:before {
+  content: "\e907";
+}
+.mns-microphone:before {
+  content: "\e916";
+}
+.mns-play:before {
+  content: "\e917";
+}
+.mns-play-square:before {
+  content: "\e918";
+}
+.mns-plus:before {
+  content: "\e919";
+}
+.mns-signal:before {
+  content: "\e91a";
+}
